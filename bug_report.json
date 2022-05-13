@@ -1,4 +1,5 @@
 {
+  "bug_report": {
             "ID": "BUG-002",
             "Summary": "Chat-user cannot rename group conversation",
             "Project": "User chat",
@@ -6,13 +7,17 @@
             "Version": "1.0",
             "Severity": "Medium",
             "Priority": "Hight",
-            "Steps to reproduce": ["1. Log in",  "2. Open chat dialog", 
-                                   "3. Click on the 'Setting' buttom", "4. Click 'Add",  
-                                   "5. Add any user to group conversation", 
-                                   "6. Try to rename this group conversation"
-            ],
+            "Steps to reproduce": 
+              { 
+                        "Step_1" : "Log in",
+                        "Step_2" : "Open chat dialog", 
+                        "Step_3" : "Click on the 'Setting' buttom",
+                        "Step_4" : "Click 'Add user'",
+                        "Step_5" : "Add any user to group conversation", 
+                        "Step_6" : "Try to rename this group conversation" 
+              },
             "Actual result": "The buttom 'Rename conversation' is desable",
             "Expected result": "User can rename group conversation",
             "Additional information": "None"
-       
+                  }
 }
