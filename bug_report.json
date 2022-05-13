@@ -7,7 +7,7 @@
             "Severity": "Medium",
             "Priority": "Hight",
             "Steps to reproduce": ["1. Log in",  "2. Open chat dialog", 
-                                   "3. Click on the 'Setting' buttom", "4. Click 'Ad",  
+                                   "3. Click on the 'Setting' buttom", "4. Click 'Add",  
                                    "5. Add any user to group conversation", 
                                    "6. Try to rename this group conversation"
             ],
